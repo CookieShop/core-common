@@ -6,7 +6,7 @@
  * @author Ing. Eduardo Ortiz
  * 
  */
-namespace Adbox\Core;
+namespace Adteam\Core\Common;
 
 use Zend\Stdlib\Parameters;
 use Zend\Paginator\Paginator;

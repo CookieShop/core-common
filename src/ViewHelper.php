@@ -1,5 +1,5 @@
 <?php
-namespace Adbox\Core;
+namespace Adteam\Core\Common;
 /**
  * Description of ViewHelper
  *

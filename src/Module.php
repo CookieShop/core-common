@@ -5,7 +5,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace Adbox\Core;
+namespace Adteam\Core\Common;
 
 class Module
 {
