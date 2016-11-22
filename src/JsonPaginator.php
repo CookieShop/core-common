@@ -63,7 +63,7 @@ class JsonPaginator{
      */
     public function setCollection()
     {
-        $page = (int)$this->params['page'];
+        $page = isset($this->params['page'])?$this->params['page']:1;
         $this->paginator = new Paginator($this->adapter);
         $this->paginator->setItemCountPerPage(25);        
         $this->paginator->setCurrentPageNumber($page); 
