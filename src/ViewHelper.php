@@ -24,6 +24,10 @@ class ViewHelper {
         $this->service = $services;
         $this->ViewHelperManager = $services->get('ViewHelperManager');
     }  
+	
+    public function __invoke($path) {
+        return $this->getUrl($path);
+    }
     
     /**
      * construye url
